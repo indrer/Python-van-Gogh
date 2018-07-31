@@ -6,4 +6,5 @@ Takes an image and creates two images of the same size. Then picks a random colo
 The script takes roughly 30 min to execute 1 mil iterations when logging is enabled.
 
 Script in action:
+
 ![Progress](https://github.com/u-pi/Python-van-Gogh/blob/master/progress.gif) ![Original](https://github.com/u-pi/Python-van-Gogh/blob/master/rdj.jpg)
