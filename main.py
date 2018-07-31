@@ -1,6 +1,11 @@
 from datetime import datetime
 import os.path
+import sys
 import random
+
+if int(sys.version[0]) < 3:
+    print("Please use Python 3.x for this script.")
+    exit("EXITING")
 
 try:
     from PIL import Image, ImageDraw
@@ -120,7 +125,7 @@ for _ in range(ITERATIONS):
 
     # Compare image1 and image2 to original. If image1 difference is smaller
     # set image2 to the value of image1
-    comp_diff = compare_image(y, x, x + line_length, y+line_width)
+    comp_diff = compare_image(y, x, x + line_length, y + line_width)
 
     if comp_diff[0] < comp_diff[1]:
         image2.paste(image1)
