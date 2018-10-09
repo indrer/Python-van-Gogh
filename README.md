@@ -29,4 +29,4 @@ When the script is running:
 - You will be asked to input number of iterations (recommended more than 5000).
 - You will be asked to input a path to an image 
 
-If the image is in the Python-van-Gogh folder you can simply provide the filename with extension (eg. rdj.jpg) or an absolute path (eg. /Users/myusername/Desktop/img.png)
+If the image is in the Python-van-Gogh folder you can simply provide the filename with extension (eg. rdj.jpg) or if the image is located elsewhere you can provide an absolute path (eg. /Users/myusername/Desktop/img.png)
