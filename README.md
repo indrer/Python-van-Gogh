@@ -8,3 +8,25 @@ The script takes roughly 30 minutes to execute 1 mil iterations when logging is 
 Script in action:
 
 ![Progress](https://github.com/u-pi/Python-van-Gogh/blob/master/progress.gif) ![Original](https://github.com/u-pi/Python-van-Gogh/blob/master/rdj.jpg)
+
+## Installation
+In order to use this script you need to have the following installed:
+- Python 3 (tested on Python 3.7.0)
+- Pillow (pip install Pillow)
+
+Then simply download the script or clone this repo.
+
+## Usage
+1. Download or clone this repo to your local machine.
+2. cd into the Python-van-Gogh folder (cd path/to/Python-van-Gogh)
+3. Run the script:
+
+```
+python3 main.py
+```
+
+When the script is running:
+- You will be asked to input number of iterations (recommended more than 5000).
+- You will be asked to input a path to an image 
+
+If the image is in the Python-van-Gogh folder you can simply provide the filename with extension (eg. rdj.jpg) or if the image is located elsewhere you can provide an absolute path (eg. /Users/myusername/Desktop/img.png)
